@@ -1,0 +1,63 @@
+:root{
+  --top: #333;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.topo{
+  height: 30px;
+  background-color: var(--top);
+}
+
+.topoint{
+  width: 100%;
+  max-width: 1040px;
+  height: 30px;
+  /* background-color: green; */
+  margin: auto;
+}
+
+.topo-left{
+  width: 50%;
+  height: 30px;
+  float: left;
+}
+
+.topo-right{
+  width: 50%;
+  height: 30px;
+  float: right;
+}
+
+.topo-left ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topo-left ul li{
+  height: 30px; 
+  line-height: 30px; /* para centralizar o conteudo */
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.topo-left ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.topo-left li .ativo{
+  color: blue;
+}
