@@ -17,6 +17,7 @@ body{
 .topo{
   height: 30px;
   background-color: var(--top);
+  color: #fff;
 }
 
 .topoint{
@@ -29,7 +30,7 @@ body{
 
 .topo-left{
   width: 50%;
-  height: 30px;
+  height: 28px;
   float: left;
 }
 
@@ -37,6 +38,8 @@ body{
   width: 50%;
   height: 30px;
   float: right;
+  text-align: right;
+  margin-top: 2px;
 }
 
 .topo-left ul{
@@ -60,4 +63,22 @@ body{
 
 .topo-left li .ativo{
   color: blue;
+}
+
+.topo-busca{
+  width: 110px;
+  height: 26px;
+  outline: 0;
+}
+
+.topo-right a{
+  float: right;
+}
+
+.topo-right input{
+  float: right;
+}
+
+.topo-right img{
+  margin-right: 4px;
 }
