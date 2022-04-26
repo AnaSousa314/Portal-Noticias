@@ -1,5 +1,6 @@
 :root{
   --top: #333;
+  --top2: #fff;
 
 }
 
@@ -81,4 +82,33 @@ body{
 
 .topo-right img{
   margin-right: 4px;
+}
+
+.topo2{
+  height: 95px;
+  background-color: var(--top2);
+  color: #000;
+}
+
+.topo2int{
+  width: 100%;
+  max-width: 1040px;
+  height: 95px;
+  /* background-color: green; */
+  margin: auto;
+}
+
+.logo{
+  width: 230px;
+  height: 80px;
+  float: left;
+  margin-top: 10px;
+}
+
+.topo2 .banner{
+  width: 650px;
+  height: 80px;
+  float: right;
+  margin-top: 7px;
+  background-color: #f00;
 }
