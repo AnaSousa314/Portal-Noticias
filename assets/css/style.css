@@ -1,7 +1,7 @@
 :root{
   --top: #333;
-  --top2: #fff;
-
+  --white: #fff;
+  --first-color: #f00;
 }
 
 *{
@@ -18,7 +18,7 @@ body{
 .topo{
   height: 30px;
   background-color: var(--top);
-  color: #fff;
+  color: var(--white);
 }
 
 .topoint{
@@ -59,7 +59,7 @@ body{
 
 .topo-left ul li a{
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
 }
 
 .topo-left li .ativo{
@@ -86,7 +86,7 @@ body{
 
 .topo2{
   height: 95px;
-  background-color: var(--top2);
+  background-color: var(--white);
   color: #000;
 }
 
@@ -110,5 +110,60 @@ body{
   height: 80px;
   float: right;
   margin-top: 7px;
-  background-color: #f00;
+  background-color: var(--first-color);
+}
+
+.menu{
+  height: 40px;
+  background-color: var(--first-color);
+}
+
+.menuint{
+  width: 100%;
+  max-width: 1040px;
+  margin: auto;
+  height: 40px;
+}
+
+.menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* menu dropdown */
+.menu li:hover .submenu{
+  display: block;
+}
+
+.menu a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* menu dorpdown */
+.submenu{
+  width: 150px;
+  background-color: var(--first-color);
+  position: absolute;
+  display: none;
+}
+
+.submenu-item{
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.submenu-item:hover{
+  background-color: #ff5555;
 }
