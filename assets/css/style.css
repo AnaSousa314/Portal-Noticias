@@ -271,6 +271,7 @@ body{
   width: 1000000px;
   height: 335px;
   background-color: #ddd;
+  transition: all 1s;
 }
 
 .slide{
@@ -279,4 +280,44 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.slide-info{
+  height: 70px;
+  background-image: url('../img/slideshow_bg.png');
+  background-size: auto 70px;
+  margin-top: 265px;
+}
+
+.slide-info-titulo{
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.slide-info-subtitulo{
+  font-size: 13px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.slidebolinhas{
+  position: absolute;
+  width: 200px;
+  height: 20px;
+}
+
+.bolinha{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.testando{
+  background-color: #f00;
 }
