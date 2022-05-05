@@ -323,14 +323,14 @@ body{
   width: 430px;
   height: 420px;
   float: left;
-  background-color: #333;
+  /* background-color: #333; */
 }
 
 .noticia-area2{
   width: 320px;
   height: 420px;
   float: left;
-  background-color: #ff5555;
+  /* background-color: #ff5555; */
 }
 
 .noticia_item{
@@ -353,6 +353,7 @@ body{
   margin-left: 6px;
   font-size: 16px;
   width: 226px;
+  color: #000;
 }
 
 .noticia-info{
@@ -361,4 +362,26 @@ body{
   margin-left: 6px;
   color: #999;
   float: left;
+}
+
+.noticia-big{
+  margin-left: 10px;
+}
+
+.noticia-big .noticia-img{
+  width: 384px;
+  height: 222px;
+}
+
+.noticia-big .noticia-img img{
+  /* width: 384px;
+  height: 222px; */
+
+  width: 376px;
+  height: 213px;
+}
+
+.noticia-big .noticia-titulo{
+  font-size: 30px;
+  width: 384px;
 }
